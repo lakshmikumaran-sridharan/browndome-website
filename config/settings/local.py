@@ -11,7 +11,7 @@ SECRET_KEY = env(
     default="IAFyhuZWu6poQ84d72lvY0cBH1nWoHhLROt7jQUPNefX4cr7HoRcie26O7Hdz70g",
 )
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1", "browndome.com", "browndome.eastus.cloudapp.azure.com"]
 
 # CACHES
 # ------------------------------------------------------------------------------
