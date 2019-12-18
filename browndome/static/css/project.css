@@ -71,3 +71,34 @@
   background-color: #fbe5cd;
   transition: .5s;
 }
+
+.team-info {
+  /* border: 1px solid rgba(204,204,204,.33); */
+  float: left;
+  width: 100%;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.team-info .img-sec {
+  width: 50%;
+  float: left;
+}
+
+.team-info .img-sec img {
+  display: block;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.team-info .fig-caption {
+  padding: 15px 20px 0;
+  width: 50%;
+  float: left;
+}
+
+.team-info .fig-caption p {
+  margin-bottom: 0;
+}
