@@ -1,0 +1,589 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{% block title %}Browndome{% endblock title %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+  <link rel="icon" href="{% static 'img/favicons/favicon.ico' %}">
+
+  {% block css %}
+
+  <!-- Latest compiled and minified Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Font Awesome Icons -->
+  <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
+    rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="{% static 'vendor/magnific-popup/magnific-popup.css' %}" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="{% static 'css/creative.css' %}" rel="stylesheet">
+
+  <!-- This file stores project-specific CSS -->
+
+  <link href="{% static 'css/project.css' %}" rel="stylesheet">
+
+
+  {% endblock %}
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img style="width:150px;" src="{% static 'img/portfolio/logo.png' %}" alt="">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">Simplifying fund selection for your investment
+            portfolio</h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">Window of opportunity to create an online platform to connect
+            users optimally with the best suited legal options</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">We've got what you need!</h2>
+          <hr class="divider light my-4">
+          <p class="text-white mb-4">Browndome is one of India’s leading private investment firms specializing in the
+            consumer, business services, technology and financial services industries. Since we are specialists in our
+            sectors of focus we are a value added investor with a deep set of industry and capital markets
+            relationships.</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <h2 class="text-center mt-0">Our Services</h2>
+      <hr class="divider my-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-award text-primary mb-4"></i>
+            <h3 class="h5 mb-2">Business optimisation support</h3>
+            <p class="text-muted mb-0">Developing a Formal Business Plan, Branding Strategy, Review of the Capital
+              Structure ,Review of Capex Plans and Operating Strategy,
+              Review of Organisational structure & Key Employees ,
+              Review of Legal Documentation
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+            <h3 class="h5 mb-2">Fund raise support</h3>
+            <p class="text-muted mb-0">Assess timeline of Fund Raising ,
+              Work as Bankers, Investor Meetings, Manage the Fund raise Process ,
+              Documentation and Closure , Investing in startups
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+            <h3 class="h5 mb-2">M&A advisory</h3>
+            <p class="text-muted mb-0">Deal sourcing - Source and evaluate strategic fitment of an acquisition target or
+              joint venture,
+              Advisory on strategic deals - Buy & Sell side,
+              Advisory on capital structure/ funding instruments</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+            <h3 class="h5 mb-2">Transaction tax</h3>
+            <p class="text-muted mb-0">
+              Transaction structuring including acquisition,
+              Advisory on funding options for inbound/ outbound transactions,
+              Inbound and outbound investment structuring,
+              Ideation of tax efficient strategies for repatriation of cash surplus/ profits,
+              Restructuring to raise funds,
+
+
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+            <h3 class="h5 mb-2">Pre-IPO restructuring</h3>
+            <p class="text-muted mb-0">
+              Segregation of non-core businesses/ assets,
+              Restructuring of group entities to unlock value in the entity proposed to be listed,
+              Promoter shareholding rationalization/ restructuring,
+              Assistance in capturing maximum valuation,
+              Setting up an AIF
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-chess-pawn text-primary mb-4"></i>
+            <h3 class="h5 mb-2">Branding Strategy and Research</h3>
+            <p class="text-muted mb-0">Focus on digital and radio with print as required. Explore possibility of media
+              deals to avoid cash outflow and set valuation benchmarks.</p>
+          </div>
+        </div>
+      </div>
+      <hr class="divider my-5">
+      <div id="product" class="row mt-5">
+        <div class="col-lg-5 col-md-6">
+          <div class="product-img">
+            <img src="{% static 'img/portfolio/thumbnails/1.jpg' %}" alt="">
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <div class="product-content">
+            <h4 class="mt-0">SaaS based legal tech product</h4>
+            <p class="text-muted">We develop customized legal case management software (LCMs), a legal practice
+              management software that helps law firms/ advocates to digitize their practice and assist them to perform
+              legal research, manage cases, clients, schedule, generate invoices & track billings. LCMs is customized as
+              per the requirements of legal professionals and is equipped with modern tools required in any law firm to
+              efficiently manage different practices</p>
+            <h5>Key features:</h5>
+            <p class="text-muted">LCMs has been made with the aim of giving best solution to professionals to
+              efficiently manage their day to day activities</p>
+            <p class="text-muted">LCMs helps to do the following activities</p>
+            <ul class="text-muted">
+              <li>
+                <span><i class="fas fa-check-circle"></i></span>
+                <span>Email Management</span>
+              </li>
+              <li>
+                <span><i class="fas fa-check-circle"></i></span>
+                <span>Case Management</span>
+              </li>
+              <li>
+                <span><i class="fas fa-check-circle"></i></span>
+                <span>Litigation management</span>
+              </li>
+              <li>
+                <span><i class="fas fa-check-circle"></i></span>
+                <span>General Counsel (GC) interface</span>
+              </li>
+              <li>
+                <span><i class="fas fa-check-circle"></i></span>
+                <span>Task management</span>
+              </li>
+              <li>
+                <span><i class="fas fa-check-circle"></i></span>
+                <span>Document management</span>
+              </li>
+              <li>
+                <span><i class="fas fa-check-circle"></i></span>
+                <span>Calendar management</span>
+              </li>
+              <li>
+                <span><i class="fas fa-check-circle"></i></span>
+                <span>Timesheet</span>
+              </li>
+              <li>
+                <span><i class="fas fa-check-circle"></i></span>
+                <span>Billing and Invoicing</span>
+              </li>
+              <li>
+                <span><i class="fas fa-check-circle"></i></span>
+                <span>Management Reports</span>
+              </li>
+            </ul>
+            <p class="text-muted">LCMs has a unique role-based and easily customizable dashboard view that allows the
+              users working under different roles to have a quick overview of their open and closed matters as well as
+              billed and non-billed matters. The report module provides senior management with the statistics of their
+              billable and non-billable activities as well. Professionals at senior management level will have different
+              stats as their dashboard view which gives quick overview of the different practices in the firm along with
+              detailed comparison with their past performances</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container-fluid p-0">
+      <h2 class="text-center mt-0">Our Portfolio</h2>
+      <hr class="divider my-4">
+      <div class="row no-gutters">
+        <div class="col-lg-2 col-sm-6">
+          <a class="portfolio-box" href="{% static 'img/portfolio/prystine.png' %}">
+            <img class="img-fluid" src="{% static 'img/portfolio/prystine.png' %}" alt="">
+            <div class="portfolio-box-caption">
+
+              <div class="project-name">
+                Prystine Beverages
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <a class="portfolio-box" href="{% static 'img/portfolio/tora_cabs.png' %}">
+            <img class="img-fluid" src="{% static 'img/portfolio/tora_cabs.png' %}" alt="">
+            <div class="portfolio-box-caption">
+
+              <div class="project-name">
+                Tora Cabs
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <a class="portfolio-box" href="{% static 'img/portfolio/extra_class.png' %}">
+            <img class="img-fluid" src="{% static 'img/portfolio/extra_class.png' %}" alt="">
+            <div class="portfolio-box-caption">
+
+              <div class="project-name">
+                Extraclass.com
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <a class="portfolio-box" href="{% static 'img/portfolio/accesswork.png' %}">
+            <img class="img-fluid" src="{% static 'img/portfolio/accesswork.png' %}" alt="">
+            <div class="portfolio-box-caption">
+
+              <div class="project-name">
+                Access Work
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <a class="portfolio-box" href="{% static 'img/portfolio/o2_nails.png' %}">
+            <img class="img-fluid" src="{% static 'img/portfolio/o2_nails.png' %}" alt="">
+            <div class="portfolio-box-caption">
+
+              <div class="project-name">
+                O2 Nails
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <a class="portfolio-box" href="{% static 'img/portfolio/9_stacks.png' %}">
+            <img class="img-fluid" src="{% static 'img/portfolio/9_stacks.png' %}" alt="">
+            <div class="portfolio-box-caption">
+
+              <div class="project-name">
+                9 Stack
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <a class="portfolio-box" href="{% static 'img/portfolio/dsp.png' %}">
+            <img class="img-fluid" src="{% static 'img/portfolio/dsp.png' %}" style="width: 100%;" alt="">
+            <div class="portfolio-box-caption">
+
+              <div class="project-name">
+                DSP Works
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <a class="portfolio-box" href="{% static 'img/portfolio/priyanka_1.png' %}">
+            <img class="img-fluid" src="{% static 'img/portfolio/priyanka_1.png' %}" alt="">
+            <div class="portfolio-box-caption">
+
+              <div class="project-name">
+                Priyanka Communications
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="page-section bg-dark text-white" id="team">
+    <div class="container text-center">
+      <h2 class="mb-5">Our Team</h2>
+      <div class="row" role="listbox">
+        <div class="col-md-12 mt-5">
+          <div class="team-info">
+            <div class="img-sec">
+              <img src="{% static 'img/ateev.png' %}" class="rounded img-fluid">
+            </div>
+            <div class="fig-caption">
+              <h3>Ateev Chadda</h3>
+              <p class="marb-20">Chief Operating Officer –
+                Investments & Strategy</p>
+              <p>ateev.chadda@browndome.com</p>
+              <p>+91 98119 32076</p>
+              <h5 class="mt-3 text-left">About Ateev</h5>
+              <p class="mt-2 text-left">Ateev is an Investment banker having more than 18 years of work
+                experience in various facets of M&A, strategy and business development.</p>
+              <p class="mt-2 text-left">In his previous role, Ateev was the head of Strategic Partnerships business
+                at Hindustan Times where he built the equity and real estate investment
+                business to a 500 cr size over the last 3 years.</p>
+              <p class="mt-2 text-left">Ateev has worked with Andersen, Macquarie and Bharti group in Business
+                development, Finance and Strategy roles throughout his career.</p>
+              <p class="mt-2 text-left">Currently, he is working along with Lakshmikumaran & Sridharan Attorneys
+                to start a fund to invest in start-ups and to advice start-ups in various
+                aspects of fundraising.</p>
+              <h5 class="mt-3 text-left">Education</h5>
+              <p class="mt-2 text-left">Delhi College of Engineering</p>
+              <p class="mt-2 text-left">MBA - IIM Bangalore</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="team-info">
+            
+            <div class="fig-caption">
+              <h3>Sarang Dublish</h3>
+              <p class="marb-20">Associate Vice President –
+                Investments & Strategy</p>
+              <p>sarang.dublish@browndome.com</p>
+              <p>+91 9555-226788</p>
+              <h5 class="mt-3 text-left">About Sarang</h5>
+              <p class="mt-2 text-left">Sarang is an Investment Banker and has extensively worked with large
+                accounting firms in the M&A domain. His areas of expertise include Deal
+                structuring, M&A transactions, Business & corporate restructurings,
+                Inbound & outbound investments, Private equity and Family offices.</p>
+              <p class="mt-2 text-left">Sarang has led and managed several transactions across multiple sectors
+                such as media, hospitality, financial services, IT/ITES, FMCG,
+                telecommunications, manufacturing etc. He has also structured and
+                executed succession strategy for HNIs and promoters of listed/ unlisted
+                companies.</p>
+              <p class="mt-2 text-left">Currently, he is working along with Lakshmikumaran & Sridharan Attorneys
+                to start a fund to invest in start-ups and to advice start-ups in various
+                aspects of fundraising.</p>
+              <p class="mt-2 text-left">Sarang has also co-authored various articles on M&A related topics.</p>
+              <h5 class="mt-3 text-left">Education</h5>
+              <p class="mt-2 text-left">University of Delhi - B.Com (H)</p>
+              <p class="mt-2 text-left">The Institute of Chartered Accountants of India (ICAI) - Associate Member</p>
+            </div>
+            <div class="img-sec">
+              <img src="{% static 'img/sarang.png' %}" class="rounded img-fluid">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-12">
+          <div class="team-info">
+            <div class="img-sec">
+              <img src="{% static 'img/sridhar.png' %}" class="rounded img-fluid">
+            </div>
+            <div class="fig-caption">
+              <h3>Sridhar Sundaram</h3>
+              <p class="marb-20">M&A and Startup Advisory</p>
+              <p>sridhar.s@browndome.com</p>
+              <p>+91 9667854699</p>
+              <h5 class="mt-3 text-left">About Sridhar</h5>
+              <p class="mt-2 text-left">Sridhar is a marketing professional and has worked in the Legal and Compliance
+                sectors where he has managed the business development initiatives. Currently, he is working with
+                Browndome Consulting in its M&A and Startup Advisory practice areas.</p>
+              <p class="mt-2 text-left">Sridhar holds a B.A.LL.B (Hons.) from India and a Master of Business
+                Administration from the United States. His areas of work include business expansion, market research,
+                strategy, business development and other growth initiatives</p>
+              <p class="mt-2 text-left">Sridhar’s past experiences involve working in various jurisdictions such as the
+                United States and China across various facets of strategic business development.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 col-xs-12">
+          <div class="card">
+            <img src="{% static 'img/shubham.png' %}" style="width: auto;height: 350px;" class="card-img-top"
+              alt="shubham">
+            <div class="card-body text-left" style="color: black;">
+              <h5 class="card-title">Shubham Agrawal </h5>
+              <p class="card-text">
+                Shubham Agrawal, a computer science graduate, masters from IIT Delhi, has more than 5 years of
+                experience of working in the software industry. He has worked with multinational firms like Oracle,
+                Intel, Mentor Graphics(Siemens) where he has worked on different technologies and built products from
+                scratch. He is currently working with Browndome as a principal software engineer. He is leading the tech
+                team
+                at Browndome to build products in legal tech space
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-xs-12">
+          <div class="card">
+            <img src="{% static 'img/kallol.png' %}" style="width: auto;height: 370px;" class="card-img-top"
+              alt="kallol">
+            <div class="card-body text-left" style="color: black;">
+              <h5 class="card-title">Kallol Pratim Saikia</h5>
+              <p class="card-text">
+                Kallol has been developing and managing software projects for a long time. He has been involved in open
+                source projects for a long time and is known for working in many reputed startups.
+                Learning new tech and solving problems are two things he enjoys.
+                Currently he is working with Browndome as a Senior Software Engineer , having responsibility of taking
+                care of
+                mobile and web part of their software products.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-xs-12">
+
+          <div class="card">
+            <img src="{% static 'img/soumitra.png' %}" style="width: auto;height: 390px;" class="card-img-top"
+              alt="...">
+            <div class="card-body text-left" style="color: black;">
+              <h5 class="card-title">Soumitra Soni</h5>
+              <p class="card-text">Soumitra Soni is working as a Software Development Engineer at Lakshmikumaran and
+                Sridharan Attorney’s. He has graduated from SRM University, Chennai and has more than 3 years of
+                experience in development and Web Technologies. He is the core member of tech team at Browndome to build
+                products in legal tech space</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Let's Get In Touch!</h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-5">Give us a call or send us an email and we will get back to you as soon as possible!
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+          <a class="d-block" href="tel:+91 (124) 477 1368">+91 (124) 477 1368</a>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <!-- Make sure to change the email address in anchor text AND the link below! -->
+          <a class="d-block" href="mailto:sarang.d@browndome.com">admin@browndome.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted">Copyright &copy; 2019 - Browndome</div>
+    </div>
+  </footer>
+
+
+
+  {% block modal %}{% endblock modal %}
+
+  <!-- Le javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  {% block javascript %}
+
+  <!-- Bootstrap JS and its dependencies-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{% static 'js/creative.min.js' %}"></script>
+
+
+  <!-- place project specific Javascript in this file -->
+
+  <script src="{% static 'js/project.js' %}"></script>
+
+
+  {% endblock javascript %}
+</body>
+
+</html>
