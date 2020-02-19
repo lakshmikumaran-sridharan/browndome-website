@@ -1,0 +1,317 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{% block title %}Browndome{% endblock title %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="{% static 'img/favicons/favicon.ico' %}">
+    {% block css %}
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" crossorigin="anonymous">
+    <!-- Font Awesome Icons -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins:400,700&display=swap"
+        rel="stylesheet">
+    {% endblock %}
+</head>
+
+<body id="page-top">
+
+    <div class="page_contain">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="/home">
+                <img src="{% static 'img/content/logo_transp.png' %}" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ml-auto right-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/home#service-link">SERVICES <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home/#people-start">PEOPLE <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/home#lime_bg">PRODUCT <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/home#contact-link">CONTACT <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header_contain">
+            <img id="de_bg" src="{% static 'img/content/DE_bg.jpeg' %}" />
+            <div id="service_contain">
+                <p id="service_head">SERVICES</p>
+                <h2 id="service_body">
+                    Our team has the right functional and industry experience which enables us to understand your
+                    business, strategic objectives and provide tailor-made solutions that helps to achieve your
+                    business objectives.
+                </h2>
+            </div>
+        </div>
+        <div id="main_contain">
+            <table class="main_table" border="0">
+                <tr class="main_row">
+                    <td valign="top">
+                        <div class="topic_img_contain">
+                            <img class="img_contain" src="{% static 'img/content/magnifiying.jpeg' %}" />
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <h2 class="main_head" id="_head">
+                            Start-up<br>advisory & fund raise
+                        </h2>
+                    </td>
+                    <td>
+                        <div class="main_content">
+                            <p class="para_contain">
+                                We assist startups in getting ready for a fund raise and thereafter work as bankers for
+                                the entire fund raise cycle
+                            </p>
+                            <p class="list_head">
+                                KEY FEATURES
+                            </p>
+                            <ul class="main_list">
+                                <li>Review of the capital structure</li>
+                                <li>Review of capex plans and operation strategy</li>
+                                <li>Business optimization support - Developing a formal business plan & branding
+                                    strategy</li>
+                                <li>Documentation and closure of fund raise – Investor meetings, terms sheet & SHA
+                                    negotiations, etc.</li>
+                            </ul>
+                        </div>
+
+                    </td>
+                </tr>
+
+                <tr class="main_row">
+                    <td valign="top">
+                        <div class="topic_img_contain">
+                            <img class="img_contain" src="{% static 'img/content/shake.jpeg' %}" />
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <h2 class="main_head">
+                            M&A<br>Advisory
+                        </h2>
+                    </td>
+                    <td>
+                        <div class="main_content">
+                            <p class="para_contain">
+                                Buy & Sell Side - Deal Advisory for acquisition/ divestments of businesses and strategic
+                                assets; M&A buy outs
+                            </p>
+                            <p class="list_head">
+                                KEY FEATURES
+                            </p>
+                            <ul class="main_list">
+                                <li>Deal sourcing - Source and evaluate strategic fitment of an acquisition target or
+                                    joint venture </li>
+                                <li>Buy & Sell side - Advisory on strategic deals</li>
+                                <li>Advisory on capital structure</li>
+                            </ul>
+                        </div>
+
+                    </td>
+                </tr>
+
+                <tr class="main_row">
+                    <td valign="top">
+                        <div class="topic_img_contain">
+                            <img class="img_contain" src="{% static 'img/content/arrow.jpeg' %}" />
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <h2 class="main_head">
+                            Transaction<br>Tax
+                        </h2>
+                    </td>
+                    <td>
+                        <div class="main_content">
+                            <p class="para_contain">
+                                Ideation of tax efficient & regulatory compliant strategies that help enterprises in
+                                managing their business operations and strategic transactions
+                            </p>
+                            <p class="list_head">
+                                KEY FEATURES
+                            </p>
+                            <ul class="main_list">
+                                <li>Transaction structuring including acquisition, divestment, merger/ demerger, capital
+                                    reduction, slump sale, asset sale, share-buyback, or any other form of internal
+                                    group restructuring</li>
+                                <li>Inbound and outbound investment structuring and funding options</li>
+                                <li>Ideation of tax efficient strategies for repatriation of cash surplus/ profits</li>
+                                <li>Restructuring to raise funds</li>
+                                <li>Promoter shareholding rationalization/ restructuring</li>
+                                <li>Pre-IPO restructuring - Segregation of non-core businesses/ assets</li>
+                                <li>Family business succession planning</li>
+                            </ul>
+                        </div>
+
+                    </td>
+                </tr>
+
+                <tr class="main_row">
+                    <td valign="top">
+                        <div class="topic_img_contain">
+                            <img class="img_contain" src="{% static 'img/content/storage.jpeg' %}" />
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <h2 class="main_head">
+                            Investing in start-ups
+                        </h2>
+                    </td>
+                    <td>
+                        <div class="main_content">
+                            <p class="para_contain">
+                                We have a dedicated focus to back the next wave of ambitious founders and startups at an
+                                early stage.
+                            </p>
+                            <p class="list_head">
+                                KEY FEATURES
+                            </p>
+                            <ul class="main_list">
+                                <li>Industry sectors - Software/ SAAS, Edtech, fintech, gaming, healthcare, moblility,
+                                    B2B services, deep tech, consumer, etc.</li>
+                                <li>Ticket size - INR 2.5 Mn to 10 Mn per startup</li>
+                                <li>Stage of the startup – Early stage till Series A</li>
+                            </ul>
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+
+            <div class="lower_contain shifter">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h2 class="main_head_lower">
+                            Are you looking to scale your business to the next level, and therefore intend to raise
+                            funds?
+                        </h2>
+                    </div>
+                    <div class="col-sm-9">
+                        <p class="para_contain">
+                            We invest in startups across industries such as Software/ SAAS, Edtech, fintech, gaming,
+                            healthcare, moblility, B2B services, deeptech, consumer, etc.
+                            <br><br>Write to us at <span id="lime_bg"><a target="_blank"
+                                    href="mailto:admin@browndome.com">admin@browndome.com</a></span> for initiating a
+                            fund raise discussion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_contain shifter">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="contact_contain">
+                        <p id="contact_head">
+                            CONTACT
+                        </p>
+                        <table class="contact_list" border="0">
+                            <tr>
+                                <td valign="top">
+                                    <span>
+                                        <img class="gps" src="{% static 'img/content/gps.png' %}" /></span>
+                                </td>
+                                <td>
+                                    <p class="contact_body">
+                                        B 6/10, Safdarjung Enclave,
+                                        New Delhi - 110029, INDIA
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <span>
+                                        <img class="phone" src="{% static 'img/content/phone.png' %}" /></span>
+                                </td>
+                                <td class="same_line">
+                                    <p class="contact_body">
+                                        +91 (124) 477 1368
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="foot_link_list">
+                        <li>
+                            <div class="foot_links">
+                                <a href="#">
+                                    <p class="_link">
+                                        TERMS OF USE
+                                    </p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="foot_links">
+                                <a href="#">
+                                    <p class="_link">
+                                        PRIVACY POLICY
+                                    </p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-5">
+                    <ul class="foot_link_list">
+                        <li>
+                            <div class="bd_logo_contain">
+                                <img src="{% static 'img/content/bd_logo.png' %}" class="logo" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cpy_right_content">
+                                <a href="#">
+                                    <p class="_copy">
+                                        &copy; Browndome, 2020, All Rights Reserved.
+                                    </p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {% block modal %}{% endblock modal %}
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    {% block javascript %}
+
+    <!-- Bootstrap JS and its dependencies-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="{% static 'js/prev-next.js' %}"></script>
+    {% endblock javascript %}
+</body>
+
+</html>
