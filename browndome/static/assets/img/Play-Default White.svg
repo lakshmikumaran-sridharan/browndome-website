@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Play-Default White</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Play-Default-White" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="play-circle-solid" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M15,0 C6.71370968,0 0,6.71370968 0,15 C0,23.2862903 6.71370968,30 15,30 C23.2862903,30 30,23.2862903 30,15 C30,6.71370968 23.2862903,0 15,0 Z M21.9979839,16.4516129 L11.3528226,22.5604839 C10.3971774,23.0927419 9.19354839,22.4092742 9.19354839,21.2903226 L9.19354839,8.70967742 C9.19354839,7.59677419 10.391129,6.90725806 11.3528226,7.43951613 L21.9979839,13.9112903 C22.9899194,14.4677419 22.9899194,15.9012097 21.9979839,16.4516129 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
