@@ -784,7 +784,7 @@ main {
 .section-1 {
   background-image: url("../img/HeaderBackground-LP.png");
   padding-top: 250px;
-  padding-bottom: 250px;
+  padding-bottom: 24%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1298,13 +1298,13 @@ main {
 }
 .section-5 .section-5-slider:after {
   background-image: url("../img/after.png");
-  padding-bottom: 280px;
+  padding-bottom: 21%;
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   content: "";
-  margin-top: -230px;
+  margin-top: -250px;
   width: 100%;
   z-index: 9;
 }
@@ -1559,8 +1559,8 @@ main {
   .key-people-carousel-conten
   .key-people-carousel-d1 {
   background-image: url("../img/SarangProfile-LP.png");
-  padding-top: 580px;
-  padding-bottom: 250px;
+  padding-top: 60%;
+  padding-bottom: 280px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1572,8 +1572,8 @@ main {
   .key-people-carousel-conten
   .key-people-carousel-d2 {
   background-image: url("../img/ShubhamProfile-LP.png");
-  padding-top: 580px;
-  padding-bottom: 250px;
+  padding-top: 60%;
+  padding-bottom: 280px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1585,8 +1585,8 @@ main {
   .key-people-carousel-conten
   .key-people-carousel-d3 {
   background-image: url("../img/SridharProfile-LP.png");
-  padding-top: 580px;
-  padding-bottom: 250px;
+  padding-top: 60%;
+  padding-bottom: 280px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1598,8 +1598,8 @@ main {
   .key-people-carousel-conten
   .key-people-carousel-d4 {
   background-image: url("../img/soumitra.png");
-  padding-top: 580px;
-  padding-bottom: 250px;
+  padding-top: 60%;
+  padding-bottom: 280px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1611,8 +1611,8 @@ main {
   .key-people-carousel-conten
   .key-people-carousel-d5 {
   background-image: url("../img/AteevProfile-LP.png");
-  padding-top: 580px;
-  padding-bottom: 250px;
+  padding-top: 60%;
+  padding-bottom: 280px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
