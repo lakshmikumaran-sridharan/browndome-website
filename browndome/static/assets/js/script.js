@@ -83,7 +83,7 @@ $(function(){
       nav:true,
       stagePadding: 0,
       smartSpeed: 500,
-      autoplay: true,
+      autoplay: false,
       navText: [ '<span class="slid-new-left"><i class="fa fa-caret-left" ></i></span>', '<span class="slid-new-right"><i class="fa fa-caret-right" ></i></span>' ],
       responsive:{
         0:{
