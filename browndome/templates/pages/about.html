@@ -1,1 +1,196 @@
-{% extends "base.html" %}
+{% load static i18n %}
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Browndome</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon -->
+    <!--        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">       -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Exo:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+    <!--css		-->
+    <link rel="stylesheet" href="{% static 'assets/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/meanmenu.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/custom.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/all.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'assets/js/popper.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.js' %}"></script>
+
+
+</head>
+
+<body class="home1">
+
+
+    <div class="home-1-wrapper">
+        <!-- Header start -->
+        {% include "_header.html" %}
+        <!-- Header end -->
+        <main>
+            <div class="mine-content">
+                <section class="about-section-1">
+
+                    <div class="section-1-about">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="section1-name spne">
+                                        <h3>About </h3>
+                                        <p>Browndome consulting is a leading financial advisory firm specialising in
+                                            investment banking, start up advisory & fund raise, Mergers & acquisitions
+                                            with a deep set of industry and capital markets relationships.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="section1-name">
+                                        <h4><span>WHO WE ARE</span></h4>
+                                        <p>We are India’s leading private investment banking firm specialising in the
+                                            consumer, business services, technology and financial services
+                                            industries. </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="section1-name">
+                                        <h4><span>WHAT WE DO</span></h4>
+                                        <p>Start up advisory & fund raise support, Investing in startups, M&A advisory &
+                                            deal support, Transaction tax, Pre-IPO restructuring, Family business
+                                            succession planning, developing SaaS based legal tech products </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-2">
+                    <div class="services-section1">
+                        <div class="container">
+                            <div class="services-sec-name">
+                                <h3>Services </h3>
+                                <p>Our team possesses diversified and significant track record of working with
+                                    entrepreneurs/ companies offering wide array of services including:</p>
+                            </div>
+                        </div>
+                        <div class="service-sec-slider">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 ">
+                                        <div class="service-i bor-lift">
+                                            <div class="service-i-carousel owl-carousel owl-theme ">
+                                                <div class="service-i-item">
+                                                    <div class="service-i-box">
+                                                        <div class="service-i-carousel-img1"></div>
+                                                        <div class="service-i-carousel-content">
+                                                            <h5>Start up advisory & Fund raise</h5>
+                                                            <p>Business optimisation support and fund raise support</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="service-i-item">
+                                                    <div class="service-i-box">
+                                                        <div class="service-i-carousel-img2"></div>
+                                                        <div class="service-i-carousel-content">
+                                                            <h5>M&A Advisory</h5>
+                                                            <p>Deal sourcing, Strategic deals: Buy side / Sell side,
+                                                                Capital
+                                                                structure</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="service-i-item">
+                                                    <div class="service-i-box active">
+                                                        <div class="service-i-carousel-img3"></div>
+                                                        <div class="service-i-carousel-content">
+                                                            <h5>Transaction Tax</h5>
+                                                            <p>Transaction structuring including acquisition,
+                                                                divestment,
+                                                                merger/demerger, inbound & outbound transactions, cross
+                                                                border transactions</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="service-i-item">
+                                                    <div class="service-i-box">
+                                                        <div class="service-i-carousel-img4"></div>
+                                                        <div class="service-i-carousel-content">
+                                                            <h5>Investing in Start-ups</h5>
+                                                            <p>Dedicated focus to back the next wave of ambitious
+                                                                founders
+                                                                and startups at an early stage</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+                                        <div class="service-right-content">
+                                            <h4><span>KEY FEATURES</span></h4>
+                                            <ul class="a">
+                                                <li>Transaction structuring including acquisition, divestment, merger/
+                                                    demerger, capital reduction, slump sale, asset sale, share-buyback,
+                                                    or
+                                                    any other form of internal group restructuring
+                                                </li>
+                                                <li> Inbound and outbound investment structuring and funding options
+                                                </li>
+                                                <li>Ideation of tax efficient strategies for repatriation of cash
+                                                    surplus/
+                                                    profits
+                                                </li>
+                                            </ul>
+                                            
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about-section-3"></section>
+            </div>
+        </main>
+
+
+        <!-- footer start -->
+        {% include "_footer.html" %}
+        <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'assets/js/owl.js' %}"></script>
+        <script src="{% static 'assets/js/jquery.scrollUp.min.js' %}"></script>
+
+        <script src="{% static 'assets/js/jquery.mixitup.min.js' %}"></script>
+        <script src="{% static 'assets/js/plugins.js' %}"></script>
+        <script src="{% static 'assets/js/script.js' %}"></script>
+</body>
+<script type="text/javascript">
+
+
+</script>
+
+</html>

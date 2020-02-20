@@ -830,7 +830,7 @@ main {
 }
 .section-1 .section1-name.spne {
   border-bottom: 5px solid #d9e832;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .section-1 .section1-name h3 {
   font-family: Poppins;
@@ -864,7 +864,7 @@ main {
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.5px;
-  color: #d9e832;
+  color: #fff;
   border-bottom: 5px solid #d9e832;
 }
 
@@ -944,7 +944,7 @@ main {
   .service-i-carousel-img1 {
   width: 30px;
   height: 30px;
-  background-image: url("../img/Startup Advisory Default.svg");
+  background-image: url("../img/startup_advisory.svg");
   background-position: center;
   background-size: cover;
   transition: 0.3s linear;
@@ -960,7 +960,7 @@ main {
   .service-i-carousel-img2 {
   width: 30px;
   height: 30px;
-  background-image: url("../img/M&A Advisory Default.svg");
+  background-image: url("../img/m_a_default.svg");
   background-position: center;
   background-size: cover;
   transition: 0.3s linear;
@@ -976,7 +976,7 @@ main {
   .service-i-carousel-img3 {
   width: 30px;
   height: 30px;
-  background-image: url("../img/Transaction tax Default.svg");
+  background-image: url("../img/tran_tax.svg");
   background-position: center;
   background-size: cover;
   transition: 0.3s linear;
@@ -992,7 +992,7 @@ main {
   .service-i-carousel-img4 {
   width: 30px;
   height: 30px;
-  background-image: url("../img/Investing in Startups Default.svg");
+  background-image: url("../img/invest_startup.svg");
   background-position: center;
   background-size: cover;
   transition: 0.3s linear;
@@ -1297,7 +1297,7 @@ main {
   background-color: #d9e832;
 }
 .section-5 .section-5-slider:after {
-  background-image: url("../img/after.png");
+  background-image: url(../img/after.png);
   padding-bottom: 21%;
   position: absolute;
   background-repeat: no-repeat;
@@ -1490,6 +1490,10 @@ main {
 .section-5 .section-5-slider .key-people-carousel .owl-nav.disabled {
   display: block !important;
 }
+.section-5 .section-5-slider .key-people-carousel .owl-nav {
+  position: relative;
+  top: -145px;
+}
 .section-5 .section-5-slider .key-people-carousel .owl-nav .owl-prev {
   position: absolute;
   left: 52%;
@@ -1562,7 +1566,7 @@ main {
   padding-top: 60%;
   padding-bottom: 280px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
 .section-5
@@ -1575,7 +1579,7 @@ main {
   padding-top: 60%;
   padding-bottom: 280px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
 .section-5
@@ -1588,7 +1592,7 @@ main {
   padding-top: 60%;
   padding-bottom: 280px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
 .section-5
@@ -1601,7 +1605,7 @@ main {
   padding-top: 60%;
   padding-bottom: 280px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
 .section-5
@@ -1614,8 +1618,18 @@ main {
   padding-top: 60%;
   padding-bottom: 280px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
+}
+.section-5
+  .section-5-slider
+  .key-people-carousel
+  .key-people-item
+  .key-people-carousel-conten
+  .key-people-content
+  .key-people-carousel-m {
+  position: relative;
+  top: -22%;
 }
 .section-5
   .section-5-slider
@@ -1969,6 +1983,180 @@ main {
   line-height: 1;
   letter-spacing: 0.9px;
   color: #d9e832;
+}
+
+/*
+/*---------------------------------------------*/
+/* 13. About
+    /*---------------------------------------------*/
+.about-section-1 {
+  background-image: url(../img/HeaderBackground-LP.png);
+  padding-top: 0;
+  padding-bottom: 18%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+.about-section-1 .section-1-about {
+  padding-top: 220px;
+}
+.about-section-1 .section1-name.spne {
+  border-bottom: 5px solid #d9e832;
+  padding-bottom: 20px;
+}
+.about-section-1 .section1-name h3 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  padding-bottom: 30px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #d9e832;
+}
+.about-section-1 .section1-name p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #fff;
+}
+.about-section-1 .section1-name h4 {
+  padding-bottom: 20px;
+}
+.about-section-1 .section1-name h4 span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #fff;
+  border-bottom: 5px solid #d9e832;
+}
+
+section.about-section-3 {
+  height: 185px;
+  background: #d9e832;
+}
+
+/*
+/*---------------------------------------------*/
+/* 13. service
+    /*---------------------------------------------*/
+.service-sec-1 {
+  background-image: url("../img/Services-HeaderBkg.png");
+  height: auto;
+  padding-bottom: 16%;
+  padding-top: 175px;
+  background-position: center;
+  background-size: cover;
+}
+.service-sec-1 .service-name {
+  border-bottom: 5px solid #d9e832;
+  padding-bottom: 20px;
+}
+.service-sec-1 .service-name h3 {
+  font-family: Poppins !important;
+  font-size: 16px;
+  font-weight: bold !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #fff;
+}
+.service-sec-1 .service-name p {
+  font-family: Poppins !important;
+  font-size: 32px;
+  font-weight: bold !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #d9e832;
+}
+
+.service-sec-2 {
+  padding: 50px 0;
+}
+
+.service-boder-bot {
+  padding: 20px 0;
+}
+.service-boder-bot .service-image-1 img {
+  width: 100%;
+}
+.service-boder-bot .service-name-1 h3 {
+  font-family: Poppins !important;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5c4c3c;
+}
+.service-boder-bot .service-content-1 {
+  border-bottom: 5px solid #e6e6e6;
+  padding: 0 0 5px 0;
+}
+.service-boder-bot .service-content-1 h3 {
+  font-family: Poppins !important;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: #474f58;
+}
+.service-boder-bot .service-content-1 h5 {
+  font-family: Poppins !important;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #5c4c3c;
+}
+.service-boder-bot .service-content-1 ul {
+  list-style-position: outside;
+  padding-left: 50px;
+}
+.service-boder-bot .service-content-1 ul li {
+  color: #474f58;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  padding: 10px 0;
+}
+.service-boder-bot .service-content-1 ul li:before {
+  content: "\2022";
+  color: #c6c6c6;
+  font-weight: bold;
+  display: inline-block;
+  width: 32px;
+  height: 35px;
+  font-size: 36px;
+  margin-top: -20px;
+  margin-left: -1em;
+  position: relative;
+  top: 7px;
+}
+
+.new-bott-none .service-content-1 {
+  border-bottom: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */

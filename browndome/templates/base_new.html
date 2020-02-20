@@ -48,79 +48,7 @@
 
     <div class="home-1-wrapper">
         <!-- Header start -->
-        <header>
-            <!-- Header area start -->
-
-            <div class="header-area1">
-                <div class="header-bottom-area1">
-                    <div class="top-sl-li">
-                    </div>
-                    <div class="new-nev-ba " id="headernew">
-                        <div class="container">
-                            <nav class="navbar navbar-expand-lg navbar-light hidden-new-l">
-                                <a class="navbar-brand new-logo" href=""><img src="{% static 'assets/img/logo.png' %}"
-                                        alt="Logo"></a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                    <ul class="navbar-nav ml-auto">
-                                        <!--								      <li class="nav-item active">-->
-                                        <!--								        <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>-->
-                                        <!--								      </li>-->
-
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#about">ABOUT</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#service">SERVICES</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#product">PRODUCTS</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#people">PEOPLE</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#contact">CONTACT</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                            <div class="mobile-menu-area-a">
-                                <div class="logo-im">
-                                    <div class="image-logo">
-                                        <img src="{% static 'assets/img/logo.png' %}" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="menu-n">
-                                    <div class="togel-con">
-                                        <div class="solubtn">
-                                            <i class="fa fa-bars solubtn21" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                    <div class="mobile-ul sectione-2">
-                                        <ul>
-                                            <li><i class="fa fa-times solubtn12" aria-hidden="true"></i></li>
-                                            <li><a href="#about">ABOUT</a></li>
-                                            <li><a href="#service">SERVICES</a></li>
-                                            <li><a href="#product">PRODUCTS</a></li>
-                                            <li><a href="#people">PEOPLE</a></li>
-                                            <li><a href="#contact">CONTACT</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </header>
+        {% include "_header.html" %}
         <!-- Header end -->
         <main>
             <div class="mine-content">
@@ -133,7 +61,7 @@
                                 <p>Window of opportunity to create an online platform to connect users optimally with
                                     the
                                     best suited legal options</p>
-                                <a href="#about" class="btn-theme"><span>KNOW MORE</span></a>
+                                <a href="/about" class="btn-theme"><span>KNOW MORE</span></a>
                             </div>
 
                         </div>
@@ -249,7 +177,7 @@
                                                     profits
                                                 </li>
                                             </ul>
-                                            <p><a href="javascript:void(0);" class="btn-theme-default">KNOW MORE</a></p>
+                                            <p><a href="/services" class="btn-theme-default">KNOW MORE</a></p>
                                         </div>
                                     </div>
 
@@ -769,61 +697,7 @@
         </main>
 
 
-        <!-- footer start -->
-        <footer id="contact">
-            <!-- footer top area start -->
-            <div class="footer-top-area">
-                <div class="container">
-                    <div class="footer-top-bar"></div>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 footer-area-right-border">
-                            <div class="footer-top-name">
-                                <h3>CONTACT</h3>
-
-                                <div class="footer-content-a">
-                                    <div class="footer-image">
-                                        <img src="{% static 'assets/img/Location.svg' %}" alt="">
-                                    </div>
-                                    <div class="footer-content-location">
-                                        <p>B 6/10, Safdarjung Enclave,</p>
-                                        <p>New Delhi - 110029, INDIA</p>
-                                    </div>
-                                </div>
-                                <div class="footer-content-a">
-                                    <div class="footer-image">
-                                        <img src="{% static 'assets/img/Call.svg' %}" alt="">
-                                    </div>
-                                    <div class="footer-content-call ">
-                                        <p>+91 (124) 477 1368</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="footer-top-bar1"></div>
-                        </div>
-                        <div class="footer-top-bar1-disa-diss"></div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                            <div class="footer-top-link">
-                                <h3><a href="javascript:void(0);"><span>TERMS OF USE</span></a></h3>
-                                <h3><a href="javascript:void(0);"><span>PRIVACY POLICY</span></a></h3>
-                                <div class="footer-top-bar2"></div>
-
-                            </div>
-                        </div>
-                        <div class="footer-top-bar1-disa-diss1"></div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                            <div class="footer-top-add">
-                                <div class="image-footer-logo">
-                                    <img src="{% static 'assets/img/logo.png' %}" alt="">
-                                </div>
-                                <h3><span>© Browndome, 2020, All Rights Reserved.</span></h3>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </footer>
+        {% include "_footer.html" %}
         <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
         <script src="{% static 'assets/js/owl.js' %}"></script>
         <script src="{% static 'assets/js/jquery.scrollUp.min.js' %}"></script>
